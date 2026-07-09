@@ -100,7 +100,6 @@ Model/
 
 Update the model path in the notebook if necessary.
 
----
 
 ## 🔄 Workflow
 
