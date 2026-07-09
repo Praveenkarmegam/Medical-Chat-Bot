@@ -12,7 +12,6 @@ An AI-powered **Medical Retrieval-Augmented Generation (RAG) Chatbot** built usi
 * 💬 Interactive command-line chatbot
 * 🏥 Domain-specific medical question answering
 
----
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +25,6 @@ An AI-powered **Medical Retrieval-Augmented Generation (RAG) Chatbot** built usi
 * PyPDF
 * Google Colab
 
----
 
 ## 📂 Project Structure
 
@@ -46,7 +44,6 @@ Medical-RAG-Chatbot/
 └── README.md
 ```
 
----
 
 ## ⚙️ Installation
 
@@ -74,7 +71,6 @@ Or install everything at once:
 pip install langchain sentence-transformers chromadb llama-cpp-python langchain-community pypdf
 ```
 
----
 
 ## 📥 Dataset
 
@@ -86,7 +82,6 @@ Data/
 
 The chatbot automatically loads all PDFs from this directory.
 
----
 
 ## 🧠 Model
 
@@ -142,7 +137,6 @@ BioMistral-7B
 Medical Answer
 ```
 
----
 
 ## 💬 Example
 
@@ -160,7 +154,6 @@ high cholesterol, lack of physical activity, and a family history
 of cardiovascular disease are at greater risk of developing heart disease.
 ```
 
----
 
 ## 📦 Libraries Used
 
@@ -171,7 +164,6 @@ of cardiovascular disease are at greater risk of developing heart disease.
 * llama-cpp-python
 * pypdf
 
----
 
 ## 🎯 Future Improvements
 
@@ -184,13 +176,11 @@ of cardiovascular disease are at greater risk of developing heart disease.
 * Docker deployment
 * Authentication and user management
 
----
 
 ## ⚠️ Disclaimer
 
 This project is intended for educational and research purposes only. It should **not** be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult qualified healthcare professionals for medical decisions.
 
----
 
 ## 👨‍💻 Author
 
