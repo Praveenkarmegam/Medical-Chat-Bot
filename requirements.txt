@@ -1,0 +1,7 @@
+langchain
+sentence-transformers
+chromadb
+llama-cpp-python
+langchain-community
+pypdf
+python-dotenv

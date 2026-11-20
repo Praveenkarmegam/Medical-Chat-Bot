@@ -39,6 +39,7 @@ Medical-RAG-Chatbot/
 ├── Model/
 │   └── BioMistral-7B.Q4_K_M.gguf
 │
+├── .env.example
 ├── Medical_Chat_Bot.ipynb
 ├── requirements.txt
 └── README.md
@@ -57,18 +58,28 @@ cd Medical-RAG-Chatbot
 Install the required dependencies:
 
 ```bash
-pip install langchain
-pip install sentence-transformers
-pip install chromadb
-pip install llama-cpp-python
-pip install langchain-community
-pip install pypdf
+pip install -r requirements.txt
 ```
 
-Or install everything at once:
+Or install individual packages:
 
 ```bash
-pip install langchain sentence-transformers chromadb llama-cpp-python langchain-community pypdf
+pip install langchain sentence-transformers chromadb llama-cpp-python langchain-community pypdf python-dotenv
+```
+
+
+## 🔐 Environment Setup
+
+Create a `.env` file in the root directory using the provided `.env.example` template:
+
+```bash
+cp .env.example .env
+```
+
+Add your credentials inside `.env`:
+
+```env
+HUGGINGFACE_API_TOKEN=your_huggingface_api_token_here
 ```
 
 
